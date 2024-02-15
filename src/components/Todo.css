@@ -1,0 +1,30 @@
+.todo-container {
+  background-color: #3e4a61;
+  width: 70%;
+  margin: 1% auto;
+  padding: 0.5%;
+  border-radius: 5px;
+}
+
+.todo-container-completed {
+  background-color: rgb(232, 96, 141);
+  color: #3e4a61;
+  width: 70%;
+  margin: 1% auto;
+  padding: 0.5%;
+  border-radius: 5px;
+}
+
+.todo-label {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 4%;
+}
+
+.todo-checkbox {
+  margin-right: 2%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
